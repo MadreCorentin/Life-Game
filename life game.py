@@ -10,8 +10,8 @@ from numba import njit
 ALIVE_COLOR = pygame.Color("forestgreen")
 DEAD_COLOR = pygame.Color("black")
 
-GENERATE_RANDOM_CELLS = 0.1
-MAX_FPS = 100
+GENERATE_RANDOM_CELLS = 0.2
+MAX_FPS = 20
 PIXEL_SIZE = 10
 
 CONFIG = {
@@ -195,7 +195,4 @@ if __name__ == "__main__":
             clock.tick(MAX_FPS)
             
         pygame.display.flip()
-        
-        
-        
-        
+
