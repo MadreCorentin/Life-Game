@@ -7,8 +7,7 @@ setup(
     url='https://github.com/MadreCorentin/Life-Game',
     license='',
     author='Corentin MADRE',
-    author_email='corentin.madre@ublu.fr',
-    description='Simulation du jeu de la vie',
+    description="Conway's Game of Life",
     install_requires=[
         'setuptools',
         'pygame',
