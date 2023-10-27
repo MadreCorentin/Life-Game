@@ -183,7 +183,7 @@ if __name__ == "__main__":
     parser.add_argument('-sh', '--screen_height', type=int, help=f"screen height (default=600)", default=600)
     parser.add_argument('-cs', '--cell_size', type=int, help=f"cell size (default=10)", default=10)
     parser.add_argument('-fps', '--frame_per_second', type=int, help=f"frame per second (default=8)", default=8)
-    parser.add_argument('-n', '--numba', type=int, help=f"use numba if value > 0 (default 0)", default=0)
+    parser.add_argument('-n', '--numba', action="store_true", help=f"use numba if specified")
 
     args = parser.parse_args()
 
